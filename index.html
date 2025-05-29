@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جمعية ADDUTIS - خطة استراتيجية 2025-2030</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            direction: rtl;
+            text-align: right;
+        }
+
+        .presentation-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .slide {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+            page-break-after: always;
+        }
+
+        .slide-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2E7D32;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+		.logo {
+			width: 80px;
+			height: 80px;
+			background: url('./logo-addutis.jpg') center/contain no-repeat;
+			border-radius: 50%;
+			}		
+		.association-name {
+            color: #2E7D32;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .slide-title {
+            color: #2E7D32;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+        }
+
+        .slide-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .section {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 25px;
+            border-radius: 10px;
+            border-right: 4px solid #4CAF50;
+        }
+
+        .section-title {
+            color: #2E7D32;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title::before {
+            content: "●";
+            color: #4CAF50;
+            font-size: 24px;
+        }
+
+        .point {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-right: 3px solid #66BB6A;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .point-title {
+            color: #2E7D32;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .axis-card {
+            background: linear-gradient(135deg, #E8F5E8 0%, #F1F8E9 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border: 2px solid #4CAF50;
+        }
+
+        .axis-number {
+            background: #2E7D32;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            float: right;
+            margin-left: 15px;
+        }
+
+        .vision-box {
+            background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+            box-shadow: 0 10px 25px rgba(46, 125, 50, 0.3);
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .nav-btn {
+            background: #2E7D32;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: #4CAF50;
+            transform: translateY(-2px);
+        }
+
+        .slide-number {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #2E7D32;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        @media print {
+            .navigation { display: none; }
+            .slide { page-break-after: always; }
+        }
+
+        @media (max-width: 768px) {
+            .slide { padding: 20px; margin-bottom: 20px; }
+            .slide-title { font-size: 24px; }
+            .logo { width: 60px; height: 60px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slide 1: Page de garde -->
+        <div class="slide">
+            <div class="slide-number">1</div>
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center;">
+                <div class="logo" style="width: 150px; height: 150px; margin-bottom: 30px;"></div>
+                <h1 style="color: #2E7D32; font-size: 36px; margin-bottom: 20px;">جمعية التنمية المستدامة بتيساف</h1>
+                <h2 style="color: #4CAF50; font-size: 28px; margin-bottom: 30px;">ADDUTIS</h2>
+                <div style="background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%); color: white; padding: 30px; border-radius: 15px; margin: 20px 0;">
+                    <h2 style="font-size: 24px; margin-bottom: 10px;">تقييم شامل وخطة استراتيجية</h2>
+                    <h3 style="font-size: 20px;">2025-2030</h3>
+                </div>
+                <p style="color: #666; font-size: 18px;">عرض مخصص لأعضاء الجمعية</p>
+            </div>
+        </div>
+
+        <!-- Slide 2: ملخص تحليل نتائج الاستبيان -->
+        <div class="slide">
+            <div class="slide-number">2</div>
+            <div class="slide-header">
+                <div class="logo-container">
+                    <div class="logo"></div>
+                    <span class="association-name">ADDUTIS</span>
+                </div>
+                <h2 class="slide-title">ملخص تحليل نتائج الاستبيان</h2>
+            </div>
+            
+            <div class="slide-content">
+                <div class="section">
+                    <h3 class="section-title">نقاط القوة</h3>
+                    <div class="point">
+                        <div class="point-title">تقييم إيجابي للمشاريع</div>
+                        <p>كفالة الأيتام، الخياطة، الأيام الدراسية وغيرها من المشاريع حازت على رضا الأعضاء</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">رغبة في المشاركة</div>
+                        <p>إرادة واسعة للمشاركة رغم وجود بعض العوائق</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">دعم الرؤية</div>
+                        <p>تأييد كبير لرؤية الجمعية في محاربة الهشاشة وتحقيق التنمية المحلية</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: التحديات الأساسية -->
+        <div class="slide">
+            <div class="slide-number">3</div>
+            <div class="slide-header">
+                <div class="logo-container">
+                    <div class="logo"></div>
+                    <span class="association-name">ADDUTIS</span>
+                </div>
+                <h2 class="slide-title">التحديات الأساسية</h2>
+            </div>
+            
+            <div class="slide-content">
+                <div class="section">
+                    <h3 class="section-title">التحديات المحددة</h3>
+                    <div class="point">
+                        <div class="point-title">تفاوت في المشاركة</div>
+                        <p>بعد المسافة والتزامات العمل تؤثر على مشاركة الأعضاء</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">ضعف تفعيل اللجان</div>
+                        <p>خاصة لجنة التوجيه التي تحتاج تفعيل عاجل</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">ضعف التواصل</div>
+                        <p>على المستوى الداخلي والخارجي</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">محدودية التمويل</div>
+                        <p>نقص في الموارد المالية والدعم اللوجستي</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">ضعف الترويج الرقمي</div>
+                        <p>عدم استثمار وسائل التواصل الاجتماعي بشكل فعال</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: الاقتراحات المتكررة -->
+        <div class="slide">
+            <div class="slide-number">4</div>
+            <div class="slide-header">
+                <div class="logo-container">
+                    <div class="logo"></div>
+                    <span class="association-name">ADDUTIS</span>
+                </div>
+                <h2 class="slide-title">الاقتراحات المتكررة</h2>
+            </div>
+            
+            <div class="slide-content">
+                <div class="section">
+                    <h3 class="section-title">أولويات الأعضاء</h3>
+                    <div class="point">
+                        <div class="point-title">تفعيل لجنة التوجيه</div>
+                        <p>لقيادة الرؤية والتخطيط الاستراتيجي</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">تعزيز التكوين المهني</div>
+                        <p>خياطة، حلويات، فلاحة وتخصصات أخرى</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">مشاريع مدرة للدخل</div>
+                        <p>لفائدة الفئات الهشة في المجتمع</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">تحسين البنية التحتية</div>
+                        <p>الماء، الصرف الصحي، الطرق</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">بناء الشراكات</div>
+                        <p>محلية ووطنية ودولية</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">التواجد الرقمي</div>
+                        <p>صفحة فيسبوك وقناة يوتيوب</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: خطة العمل قصيرة المدى -->
+        <div class="slide">
+            <div class="slide-number">5</div>
+            <div class="slide-header">
+                <div class="logo-container">
+                    <div class="logo"></div>
+                    <span class="association-name">ADDUTIS</span>
+                </div>
+                <h2 class="slide-title">خطة عمل قصيرة المدى (2025-2026)</h2>
+            </div>
+            
+            <div class="slide-content">
+                <div class="axis-card">
+                    <div class="axis-number">1</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 10px;">الحكامة والتنظيم الداخلي</h4>
+                    <p>تفعيل اللجان، اعتماد ميثاق داخلي، تحفيز الأعضاء</p>
+                </div>
+                
+                <div class="axis-card">
+                    <div class="axis-number">2</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 10px;">التواصل والترويج</h4>
+                    <p>منصات التواصل الاجتماعي، فريق تواصل، أبواب مفتوحة</p>
+                </div>
+                
+                <div class="axis-card">
+                    <div class="axis-number">3</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 10px;">تنسيق وتخطيط المشاريع</h4>
+                    <p>خطة سنوية تشاركية، أدوات متابعة، تقييم نصف سنوي</p>
+                </div>
+                
+                <div class="axis-card">
+                    <div class="axis-number">4</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 10px;">تعبئة الموارد والشراكات</h4>
+                    <p>ملفات مشاريع، استهداف الممولين، نظام اشتراك</p>
+                </div>
+                
+                <div class="axis-card">
+                    <div class="axis-number">5</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 10px;">مشاريع ذات أولوية</h4>
+                    <p>ورشات تكوين، تمويل ذاتي مصغر، دار التنمية المستدامة</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: الرؤية الاستراتيجية -->
+        <div class="slide">
+            <div class="slide-number">6</div>
+            <div class="slide-header">
+                <div class="logo-container">
+                    <div class="logo"></div>
+                    <span class="association-name">ADDUTIS</span>
+                </div>
+                <h2 class="slide-title">التوجهات الاستراتيجية 2025-2030</h2>
+            </div>
+            
+            <div class="slide-content">
+                <div class="vision-box">
+                    <h3 style="margin-bottom: 15px;">الرؤية</h3>
+                    <p>جعل تيساف نموذجًا في التنمية المستدامة المحلية، قائمًا على التضامن، التمكين، والابتكار الاجتماعي</p>
+                </div>
+                
+                <div class="section">
+                    <h3 class="section-title">المحاور الاستراتيجية الخمسة</h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                        <div class="point">
+                            <div class="point-title">1. الحكامة والتأهيل التنظيمي</div>
+                        </div>
+                        <div class="point">
+                            <div class="point-title">2. التنمية البشرية والاندماج</div>
+                        </div>
+                        <div class="point">
+                            <div class="point-title">3. الاقتصاد المحلي التضامني</div>
+                        </div>
+                        <div class="point">
+                            <div class="point-title">4. البنية التحتية والبيئة</div>
+                        </div>
+                        <div class="point" style="grid-column: 1 / -1;">
+                            <div class="point-title">5. الشراكات والترويج الخارجي</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: المحور الأول والثاني -->
+        <div class="slide">
+            <div class="slide-number">7</div>
+            <div class="slide-header">
+                <div class="logo-container">
+                    <div class="logo"></div>
+                    <span class="association-name">ADDUTIS</span>
+                </div>
+                <h2 class="slide-title">المحاور الاستراتيجية - الجزء الأول</h2>
+            </div>
+            
+            <div class="slide-content">
+                <div class="axis-card">
+                    <div class="axis-number">1</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 15px;">الحكامة والتأهيل التنظيمي</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px solid #eee;">• إعادة هيكلة الجمعية وتكوين أعضائها</li>
+                        <li style="padding: 8px 0; border-bottom: 1px solid #eee;">• إرساء نظام داخلي رقمي لتدبير المهام واللجان</li>
+                        <li style="padding: 8px 0;">• تفعيل لجنة التوجيه لمواكبة التوجهات الكبرى</li>
+                    </ul>
+                </div>
+                
+                <div class="axis-card">
+                    <div class="axis-number">2</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 15px;">التنمية البشرية والاندماج الاجتماعي</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px solid #eee;">• دعم الفئات الهشة من خلال التكوين والمواكبة</li>
+                        <li style="padding: 8px 0; border-bottom: 1px solid #eee;">• إطلاق مركز مجتمعي متعدد الوظائف</li>
+                        <li style="padding: 8px 0;">• خلق فرص مشاركة للشباب والنساء</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: المحاور الثالث والرابع والخامس -->
+        <div class="slide">
+            <div class="slide-number">8</div>
+            <div class="slide-header">
+                <div class="logo-container">
+                    <div class="logo"></div>
+                    <span class="association-name">ADDUTIS</span>
+                </div>
+                <h2 class="slide-title">المحاور الاستراتيجية - الجزء الثاني</h2>
+            </div>
+            
+            <div class="slide-content">
+                <div class="axis-card" style="margin-bottom: 10px;">
+                    <div class="axis-number">3</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 10px;">الاقتصاد المحلي التضامني</h4>
+                    <p style="font-size: 14px;">تشجيع أنشطة مدرة للدخل، تطوير منتوج محلي معلب، فضاء عرض وبيع</p>
+                </div>
+                
+                <div class="axis-card" style="margin-bottom: 10px;">
+                    <div class="axis-number">4</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 10px;">البنية التحتية والبيئة</h4>
+                    <p style="font-size: 14px;">مشاريع بيئية، إعادة تهيئة الطرق والماء، التحول نحو قرية مستدامة</p>
+                </div>
+                
+                <div class="axis-card">
+                    <div class="axis-number">5</div>
+                    <h4 style="color: #2E7D32; font-weight: bold; margin-bottom: 10px;">الشراكات والترويج الخارجي</h4>
+                    <p style="font-size: 14px;">شبكة شراكات دائمة، ترويج رقمي، مشاركة في برامج الدولة</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: الخطوات القادمة -->
+        <div class="slide">
+            <div class="slide-number">9</div>
+            <div class="slide-header">
+                <div class="logo-container">
+                    <div class="logo"></div>
+                    <span class="association-name">ADDUTIS</span>
+                </div>
+                <h2 class="slide-title">الخطوات القادمة</h2>
+            </div>
+            
+            <div class="slide-content">
+                <div class="section">
+                    <h3 class="section-title">الإجراءات المطلوبة</h3>
+                    <div class="point">
+                        <div class="point-title">إعداد العرض النهائي</div>
+                        <p>تحضير عرض PowerPoint مفصل للجمعية العمومية</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">توزيع المهام</div>
+                        <p>تقسيم المسؤوليات حسب المحاور الاستراتيجية</p>
+                    </div>
+                    <div class="point">
+                        <div class="point-title">ورقة المتابعة السنوية</div>
+                        <p>إنشاء أدوات تتبع ومراقبة تنفيذ الخطة</p>
+                    </div>
+                </div>
+                
+                <div class="vision-box" style="margin-top: 30px;">
+                    <h3>معًا نحو تنمية مستدامة لتيساف</h3>
+                    <p style="margin-top: 15px;">شكرًا لكم على ثقتكم ومشاركتكم الفعالة</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" onclick="window.print()">طباعة</button>
+        <button class="nav-btn" onclick="scrollToTop()">العودة للأعلى</button>
+    </div>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Navigation entre les slides
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowDown' || e.key === 'PageDown') {
+                window.scrollBy(0, window.innerHeight);
+            } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+                window.scrollBy(0, -window.innerHeight);
+            }
+        });
+    </script>
+</body>
+</html>
